@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #000; */
+    overflow: hidden;
+}
+
+h1 {
+    position: relative;
+    font-family: 'cinzel', serif ;
+    font-stretch:wider;
+    
+    font-size: calc(20px + 5vw);
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.15em #1da9cc;
+    user-select: none;
+    white-space: nowrap;
+    filter: blur(0.0001em);
+   text-align: center;
+}
+
+h1 span {
+    position: center;
+    top: 0;
+    left: 0;
+    
+    
+}
+
+.lead
+{
+    font-family: 'montserrat';
+    font-size: large;
+    color: azure;
+    text-align: center;
+    text-decoration: overline;
+    text-transform: capitalize;
+
+}
